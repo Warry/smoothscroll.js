@@ -1,0 +1,21 @@
+.smoothScroll {
+	position: absolute;
+	width: 5px;
+	background: rgba(0,0,0,0);
+	min-height: 15px;
+	-webkit-transition: background 200ms linear;
+	-moz-transition: background 200ms linear;
+	transition: background 200ms linear;
+}
+.smoothScroll.show {
+	background: rgba(0,0,0,.05);
+}
+.smoothScroll.move {
+	background: rgba(0,0,0,.3);
+}
+.smoothScroll:hover {
+	background: rgba(0,0,0,.7);
+}
+.smoothScroll.drag {
+	background: rgba(0,0,0,1);
+}
